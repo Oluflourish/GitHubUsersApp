@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Light Theme -->
+    <color name="colorPrimary">#380760</color>
+    <color name="colorPrimaryDark">#250540</color>
+    <color name="colorAccent">#4A7BA7</color>
+    <color name="titleTextColorLight">#2B3D4D</color>
+    <color name="subtitleTextColorLight">#B4BAC0</color>
+
+    <!-- Dark Theme -->
+    <color name="darkColorPrimary">#24053e</color>
+    <color name="darkColorPrimaryDark">#160428</color>
+    <color name="darkColorAccent">#4A7BA7</color>
+    <color name="titleTextColorDark">#ffffff</color>
+    <color name="subtitleTextColorDark">#B4BAC0</color>
+
+</resources>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- Base Light application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:titleTextColor" tools:targetApi="m">@color/titleTextColorLight</item>
+        <item name="android:subtitleTextColor" tools:targetApi="m">@color/subtitleTextColorLight</item>
+    </style>
+
+    <!-- Dark Theme -->
+    <style name="AppTheme.Dark" parent="Theme.AppCompat">
+        <item name="colorPrimary">@color/darkColorPrimary</item>
+        <item name="colorPrimaryDark">@color/darkColorPrimaryDark</item>
+        <item name="colorAccent">@color/darkColorAccent</item>
+        <item name="android:titleTextColor" tools:targetApi="m">@color/titleTextColorDark</item>
+        <item name="android:subtitleTextColor" tools:targetApi="m">@color/subtitleTextColorDark</item>
+        <item name="android:colorBackground" tools:ignore="PrivateResource">@color/background_material_dark</item>
+    </style>
+
+    <style name="AppTheme.Dark.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+    <style name="AppTheme.Dark.PopOverlay" parent="ThemeOverlay.AppCompat" />
+
+    <style name="toggle_switch_color">
+        <!-- Active thumb & track color (30% transparency) -->
+        <item name="colorControlActivated">@color/colorAccent</item>
+        <!-- Inactive thumb color -->
+        <item name="colorSwitchThumbNormal">#FFF</item>
+        <!-- Inactive track color (30% transparency) -->
+        <item name="android:colorForeground">#FFF</item>
+    </style>
+
+
+</resources>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Github Users</string>
+    <string name="no_users">No users found.\nDouble-check your internet connection, then try again.</string>
+    <string name="no_internet_connection">No internet connection.\nDouble-check your internet connection, then try again.</string>
+    <string name="github_users_in_nigeria">GitHub Users in Nigeria</string>
+    <string name="developed_by">Developed by @eoluflourish</string>
+    <string name="following"> Following</string>
+    <string name="followers">Followers</string>
+    <string name="repos">Repos</string>
+    <string name="url">Profile URL:</string>
+    <string name="more_details">More Details</string>
+    <string name="details_activity_title">Github User Profile</string>
+    <string name="share">Share</string>
+    <string name="theme">Theme</string>
+    <string name="retry_button">Try Again</string>
+    <string name="something_went_wrong">Hmm…\nSomething went wrong.</string>
+</resources>
